@@ -17,9 +17,9 @@ Spreadsheet of the instruction [here](https://docs.google.com/spreadsheets/d/19s
 MODIFIED VERSIONS OF https://github.com/mattbatwings/BatPU-2/blob/main/assembler.py
 
 ## How to use the compiler
-1. create a file with no extension
-2. put the code into the file and run in cmd "compiler.py [file name]" (make sure that you are in the right directory)
-3. the compiled code will be named "Compiled_" + original code name
+1. create a file with .as extension
+2. put the code into the file and run in cmd "compiler.py [code file]" (make sure that you are in the right directory)
+3. the compiled code will be named "Compiled_" + original name (no extension)
 
 ## Run the program in Logisim
 1. find the "PROGRAM_ROM"
