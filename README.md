@@ -1,1 +1,2 @@
-# 8-bit-computer
+8-bit computer made in Logisim evolution
+
