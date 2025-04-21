@@ -1,11 +1,24 @@
-8-bit computer made in Logisim evolution
+# **8-bit computer made in Logisim evolution**
 
-8bit_computer_V2.circ 
+## 8bit_computer_V2.circ 
 - the computer itself
 
-compiler.py
+## compiler.py
 - the compiler for the language
+MODIFIED VERSIONS OF https://github.com/mattbatwings/BatPU-2/blob/main/assembler.py
 
-to use the compiler
+## to use the compiler
 1. create a file with no extension
-2 put the code into the file and run in cmd "compiler.py [file name]" (make sure that you are in the right directory)
+2. put the code into the file and run in cmd "compiler.py [file name]" (make sure that you are in the right directory)
+3. the compiled code will be named "Compiled_" + original code name
+
+## run the program in logisim
+1. find the "PROGRAM_ROM"
+2. bottom right there's (click to edit), click it
+3. use the "Open..." at the bottom of the hex editor
+4. find the compiled code and load it in
+5. logisim -> simulate tab at the top left
+6. change the auto-tick frequency
+7. enable auto-tick
+
+the documentation of the language is [here](https://github.com/ThatVeryDumbGuy/8-bit-computer/blob/main/language%20documentation.txt)
