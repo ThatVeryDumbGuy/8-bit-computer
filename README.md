@@ -9,6 +9,9 @@ The computer itself
 
 ## compiler.py
 The compiler for the language
+
+Documentation of the language [here](https://github.com/ThatVeryDumbGuy/8-bit-computer/blob/main/language%20documentation.txt)
+
 MODIFIED VERSIONS OF https://github.com/mattbatwings/BatPU-2/blob/main/assembler.py
 
 ## How to use the compiler
@@ -24,5 +27,3 @@ MODIFIED VERSIONS OF https://github.com/mattbatwings/BatPU-2/blob/main/assembler
 5. logisim -> simulate tab at the top left
 6. change the auto-tick frequency
 7. enable auto-tick
-
-the documentation of the language is [here](https://github.com/ThatVeryDumbGuy/8-bit-computer/blob/main/language%20documentation.txt)
