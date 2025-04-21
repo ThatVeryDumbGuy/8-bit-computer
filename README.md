@@ -18,7 +18,7 @@ MODIFIED VERSIONS OF https://github.com/mattbatwings/BatPU-2/blob/main/assembler
 
 ## How to use the compiler
 1. create a file with any extension
-2. put the code into the file and run in cmd "compiler.py [code file]" (make sure that the code file is in the right directory as the compiler.py)
+2. put the code into the file and run in cmd "python compiler.py [code file]" (make sure that the code file is in the right directory as the compiler.py)
 3. the compiled code will be named [original name].cmpl
 
 ## Run the program in Logisim
