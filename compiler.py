@@ -154,10 +154,11 @@ def assemble(assembly_filename, mc_filename):
                 exit(f'Invalid offset for {opcode} on line {pc}')
             machine_code |= words[3] & (2 ** 4 - 1)
 
-        as_string = hex(machine_code)[2:].rjust(16, '0')
-
+        as_string = hex(machine_code)[2:].rjust(5, '0')
+        pc_string = hex(pc)[2:].rjust(3, '0')
+        
         if(pc % 8 == 0) :
-            machine_code_file.write(f'{hex(pc)} : ')
+            machine_code_file.write(f'{pc_string} : ')
         machine_code_file.write(f'{as_string} ')
         if(pc-7 % 8 == 0) :
             machine_code_file.write("\n")
