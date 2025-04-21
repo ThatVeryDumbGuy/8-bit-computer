@@ -168,4 +168,4 @@ if __name__ == '__main__':
         exit("Not enough arguments.")
 
 
-assemble(sys.argv[1] + ".as", "compiled_" + sys.argv[1])
+assemble(sys.argv[1], "compiled_" + os.path.splitext(sys.argv[1])[0])
