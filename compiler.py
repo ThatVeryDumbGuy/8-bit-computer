@@ -168,4 +168,4 @@ if __name__ == '__main__':
         exit("Not enough arguments.")
 
 
-assemble(sys.argv[1], "compiled_" + os.path.splitext(sys.argv[1])[0])
+assemble(sys.argv[1], os.path.splitext(sys.argv[1])[0] + ".cmpl")
