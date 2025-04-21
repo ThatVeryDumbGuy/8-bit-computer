@@ -2,7 +2,7 @@
 
 ## 8bit_computer_V2.circ 
 The computer itself
-- 1024 of 18 bit instrction memory
+- 1024 of 18 bit instruction memory
 - 256 byte data memory
 - 14 byte register
 - 16 stack layer
