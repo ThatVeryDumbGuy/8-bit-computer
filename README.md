@@ -1,18 +1,22 @@
 # **8-bit computer made in Logisim evolution**
 
 ## 8bit_computer_V2.circ 
-- the computer itself
+The computer itself
+- 1024 of 18 bit instrction memory
+- 256 byte data memory
+- 14 byte register
+- 16 stack layer
 
 ## compiler.py
-- the compiler for the language
+The compiler for the language
 MODIFIED VERSIONS OF https://github.com/mattbatwings/BatPU-2/blob/main/assembler.py
 
-## to use the compiler
+## How to use the compiler
 1. create a file with no extension
 2. put the code into the file and run in cmd "compiler.py [file name]" (make sure that you are in the right directory)
 3. the compiled code will be named "Compiled_" + original code name
 
-## run the program in logisim
+## Run the program in Logisim
 1. find the "PROGRAM_ROM"
 2. bottom right there's (click to edit), click it
 3. use the "Open..." at the bottom of the hex editor
