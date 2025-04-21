@@ -11,6 +11,7 @@ The computer itself
 The compiler for the language
 
 Documentation of the language [here](https://github.com/ThatVeryDumbGuy/8-bit-computer/blob/main/language%20documentation.txt)
+Spreadsheet of the instruction [here](https://docs.google.com/spreadsheets/d/19sJ7IXaS6HRx7-v0vHk-52AsoSK-bBNAdcGuYu5CgH4/edit?gid=0#gid=0)
 
 MODIFIED VERSIONS OF https://github.com/mattbatwings/BatPU-2/blob/main/assembler.py
 
