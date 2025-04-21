@@ -162,8 +162,6 @@ def assemble(assembly_filename, mc_filename):
         if(pc-7 % 8 == 0) :
             machine_code_file.write("\n")
 
-        # machine_code_file.write(f'{as_string}\n')
-
 if __name__ == '__main__':
     if len(sys.argv) < 2:
         exit("Not enough arguments.")
