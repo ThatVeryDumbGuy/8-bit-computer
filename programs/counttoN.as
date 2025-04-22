@@ -4,7 +4,7 @@
        INC r1
 .count PST r0 r2 0
        INC r2        //r2 + 1
-       DEC r1
-       BRH Z .stop
+       CMP r1 r2     //branch : compare
+       BRH Z .stop   //if r1 = r2 then stop
        JMP .count
 .stop  HLT
