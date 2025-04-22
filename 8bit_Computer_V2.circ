@@ -322,8 +322,8 @@
       <a name="addrWidth" val="10"/>
       <a name="appearance" val="logisim_evolution"/>
       <a name="contents">addr/data: 10 17
-8301 11031 10012 9101 2234 11020 2032 2043
-91ff b00b a004 1000
+8101 11011 10012 9101 11020 9201 91ff b009
+a004 1000
 </a>
       <a name="dataWidth" val="17"/>
       <a name="label" val="PROGRAM_ROM"/>
