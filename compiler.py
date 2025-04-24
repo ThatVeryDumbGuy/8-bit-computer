@@ -1,11 +1,13 @@
 # MODIFIED VERSION OF https://github.com/mattbatwings/BatPU-2/blob/main/assembler.py!!!!!!
 
 import sys
+import os
 
 def assemble(assembly_filename, mc_filename):
     assembly_file = open(assembly_filename, 'r')
     machine_code_file = open(mc_filename, 'w')
     lines = (line.strip() for line in assembly_file)
+    ctr = 1
 
     # Remove comments and blanklines
     for comment_symbol in ['/', ';', '#']:
@@ -159,9 +161,12 @@ def assemble(assembly_filename, mc_filename):
         
         if(pc % 8 == 0) :
             machine_code_file.write(f'{pc_string} : ')
+
         machine_code_file.write(f'{as_string} ')
-        if(pc-7 % 8 == 0) :
+        
+        if((pc+1)/8 == ctr) :
             machine_code_file.write("\n")
+            ctr+=1
 
 if __name__ == '__main__':
     if len(sys.argv) < 2:
